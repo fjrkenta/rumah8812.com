@@ -3,7 +3,7 @@ require "function.php";
 date_default_timezone_set("Asia/Jakarta");
 
 $run = banner($Green,$White);
-echo " Spotify Account Generator x Samsung Offer\n ϟ 1. Account Generator x Samsung Promo\n ϟ 2. Soon Update\n\n Masukan Pilihanmu : ";
+echo " Spotify Account Generator\n ϟ 1. Account Generator\n ϟ 2. Soon Update\n\n Masukan Pilihanmu : ";
 $pilih = trim(fgets(STDIN));
 if($pilih == "1"){
 	$run = generateAccount($Red,$White,$Green,$Grey,$Blue);
