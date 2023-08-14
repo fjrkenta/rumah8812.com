@@ -53,7 +53,7 @@ function uniqueId(){
 }
 
 function randDomain(){
-	$arraymail = array('rumah8812.com');
+	$arraymail = array('labworld.org');
 	$datas = array_rand($arraymail, true);
 	return $arraymail[$datas];
 }
